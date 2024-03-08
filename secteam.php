@@ -10,9 +10,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $password = isset($_POST['pass']) ? $_POST['pass'] : '';
  
     // Comprueba si las credenciales son correctas
-    if ($username === $expected_user && $password === $expected_pass) {
+    if ($username === $expected_user && $password === 'Muysec123*') {
         // Define el nombre del archivo donde se guardará el mensaje
-        $filename = "message.txt";
+        $filename = "flag.txt";
         // Define el mensaje a guardar
         $message = "Well Done";
  
