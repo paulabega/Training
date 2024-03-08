@@ -1,7 +1,6 @@
 <?php
 // Credenciales de usuario y contraseña esperadas
 $expected_user = 'admin';
-$expected_pass = 'Muysec123*';
  
 // Verifica si el servidor ha recibido una petición POST
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
